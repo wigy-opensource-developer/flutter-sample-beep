@@ -41,11 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _playBeep(BuildContext context) async {
     final beep =
-        await DefaultAssetBundle.of(context).load('asset/scanner_beep.ac3');
+        await DefaultAssetBundle.of(context).load('assets/scanner_beep.mp3');
     final flutterSound = new FlutterSound();
     final playback = new Completer.sync();
     await flutterSound.startPlayerFromBuffer(beep.buffer.asUint8List(),
-        codec: t_CODEC.CODEC_AAC);
+        codec: t_CODEC.CODEC_MP3);
     final subscription = flutterSound.onPlayerStateChanged.listen((event) {
       if (event == null) {
         return;
