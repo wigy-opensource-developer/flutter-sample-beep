@@ -2,15 +2,10 @@
 
 A sample app playing a short asset sound
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+Do not expect too much, I just tried out how far the flutter ecosystem
+is with sound playback. Not bad so far, but a bit confusing and the
+error messages are not that useful if you make a mistake.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The sound effects were created by [Jesús Lastra](https://opengameart.org/users/jalastram)
